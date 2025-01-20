@@ -42,8 +42,6 @@ defmodule YOLO.MixProject do
       # optional
       {:exla, "~> 0.9", optional: true},
       {:yolo_fast_nms, "~> 0.1.1", optional: true},
-      {:evision, "~> 0.2.0", optional: true},
-      {:image, "~> 0.54.4", optional: true},
 
       # code check and docs
       {:credo, "~> 1.7", only: [:dev, :test], runtime: false},
